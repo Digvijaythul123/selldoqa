@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="workingTestscripts.SalesManager_LoginTest">
+        <methods>
+          <include name="endingTest"/>
+          <include name="setUp"/>
+          <include name="presales_LoginTest"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="salesManagerLoginTest"/>
+        </methods>
+      </class> <!-- workingTestscripts.SalesManager_LoginTest -->
+      <class name="workingTestscripts.TodaysFollowup_VerificationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="todaysFollowup_VerificationTest"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="appLogin"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- workingTestscripts.TodaysFollowup_VerificationTest -->
+      <class name="workingTestscripts.Admin_LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="adminLoginTest"/>
+          <include name="admin_LoginTest"/>
+          <include name="getResult"/>
+          <include name="endingTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- workingTestscripts.Admin_LoginTest -->
+      <class name="workingTestscripts.FollowupTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="scheduleFollowup"/>
+          <include name="tearDown"/>
+          <include name="appLogin"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- workingTestscripts.FollowupTests -->
+      <class name="workingTestscripts.MissedSitevisit_VerificationTest">
+        <methods>
+          <include name="sales_presalesLogin"/>
+          <include name="setUp"/>
+          <include name="endingTest"/>
+          <include name="missedSitevisit_VerificationTest"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- workingTestscripts.MissedSitevisit_VerificationTest -->
+      <class name="workingTestscripts.PresalesManager_LoginTest">
+        <methods>
+          <include name="presales_LoginTest"/>
+          <include name="presalesManagerLoginTest"/>
+          <include name="endingTest"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- workingTestscripts.PresalesManager_LoginTest -->
+      <class name="workingTestscripts.MissedFollowup_VerificationTest">
+        <methods>
+          <include name="missedFollowup_VerificationTest"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="appLogin"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- workingTestscripts.MissedFollowup_VerificationTest -->
+      <class name="workingTestscripts.PostSalesManager_LoginTest">
+        <methods>
+          <include name="endingTest"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="presales_LoginTest"/>
+          <include name="postsalesManagerLoginTest"/>
+        </methods>
+      </class> <!-- workingTestscripts.PostSalesManager_LoginTest -->
+      <class name="workingTestscripts.MissedCalls_VerificationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="endingTest"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="appLogin"/>
+          <include name="missedCalls_VerificationTest"/>
+        </methods>
+      </class> <!-- workingTestscripts.MissedCalls_VerificationTest -->
+      <class name="workingTestscripts.SendingEmailTest">
+        <methods>
+          <include name="sendingEmailTest"/>
+          <include name="sales_presalesLogin"/>
+          <include name="setUp"/>
+          <include name="endingTest"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- workingTestscripts.SendingEmailTest -->
+      <class name="workingTestscripts.SendingEmailWithTemplateTest">
+        <methods>
+          <include name="sendingEmailWithTemplateTest"/>
+          <include name="setUp"/>
+          <include name="endingTest"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="sales_presalesLogin"/>
+        </methods>
+      </class> <!-- workingTestscripts.SendingEmailWithTemplateTest -->
+      <class name="workingTestscripts.NFA_VerificationTest">
+        <methods>
+          <include name="nFA_VerificationTest"/>
+          <include name="setUp"/>
+          <include name="endingTest"/>
+          <include name="appLogin"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- workingTestscripts.NFA_VerificationTest -->
+      <class name="workingTestscripts.Sales_LoginTest">
+        <methods>
+          <include name="salesLoginTest"/>
+          <include name="setUp"/>
+          <include name="endingTest"/>
+          <include name="presales_LoginTest"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- workingTestscripts.Sales_LoginTest -->
+      <class name="workingTestscripts.ClientCreationPostPaid">
+        <methods>
+          <include name="setUp"/>
+          <include name="endingTest"/>
+          <include name="creatingClientfromSupport"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="adminLogin"/>
+        </methods>
+      </class> <!-- workingTestscripts.ClientCreationPostPaid -->
+      <class name="workingTestscripts.Postsales_LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="postsalesLoginTest"/>
+          <include name="endingTest"/>
+          <include name="getResult"/>
+          <include name="presales_LoginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- workingTestscripts.Postsales_LoginTest -->
+      <class name="workingTestscripts.Presales_LoginTest">
+        <methods>
+          <include name="endingTest"/>
+          <include name="presalesLoginTest"/>
+          <include name="setUp"/>
+          <include name="presales_LoginTest"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- workingTestscripts.Presales_LoginTest -->
+      <class name="workingTestscripts.TodaysSitevisit_VerificationTest">
+        <methods>
+          <include name="todaysSitevisit_VerificationTest"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="endingTest"/>
+          <include name="appLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- workingTestscripts.TodaysSitevisit_VerificationTest -->
+      <class name="workingTestscripts.SupportManager_LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="admin_LoginTest"/>
+          <include name="getResult"/>
+          <include name="endingTest"/>
+          <include name="tearDown"/>
+          <include name="supportManager_LoginTest"/>
+        </methods>
+      </class> <!-- workingTestscripts.SupportManager_LoginTest -->
+      <class name="workingTestscripts.ChangingStage_IncomingToProspectTest">
+        <methods>
+          <include name="appLogin"/>
+          <include name="changingStage_IncomingToProspectTest"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- workingTestscripts.ChangingStage_IncomingToProspectTest -->
+      <class name="workingTestscripts.AddingANoteTest">
+        <methods>
+          <include name="sales_presalesLogin"/>
+          <include name="setUp"/>
+          <include name="endingTest"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="addingNoteTest"/>
+        </methods>
+      </class> <!-- workingTestscripts.AddingANoteTest -->
+      <class name="workingTestscripts.AddConductedSiteVisitTest">
+        <methods>
+          <include name="endingTest"/>
+          <include name="addConductedSiteVisitTest"/>
+          <include name="setUp"/>
+          <include name="appLogin"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- workingTestscripts.AddConductedSiteVisitTest -->
+      <class name="workingTestscripts.SuperAdmin_LoginTest">
+        <methods>
+          <include name="superAdmin_LoginTest"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- workingTestscripts.SuperAdmin_LoginTest -->
+      <class name="workingTestscripts.SendingEmailWithCCandBCCTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="endingTest"/>
+          <include name="sales_presalesLogin"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="sendingEmailWithCCandBCCTest"/>
+        </methods>
+      </class> <!-- workingTestscripts.SendingEmailWithCCandBCCTest -->
+      <class name="workingTestscripts.NewEnquiries_VerificationTest">
+        <methods>
+          <include name="newEnquiries_VerificationTest"/>
+          <include name="setUp"/>
+          <include name="appLogin"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="endingTest"/>
+        </methods>
+      </class> <!-- workingTestscripts.NewEnquiries_VerificationTest -->
+      <class name="workingTestscripts.ReassigningLeadTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="endingTest"/>
+          <include name="getResult"/>
+          <include name="adminLogin"/>
+          <include name="tearDown"/>
+          <include name="reassigningLeadTest"/>
+        </methods>
+      </class> <!-- workingTestscripts.ReassigningLeadTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
